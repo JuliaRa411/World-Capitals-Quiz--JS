@@ -1,0 +1,152 @@
+  body{
+    
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-image: url(https://images.unsplash.com/photo-1594450280609-3cacc7c4179f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+  
+  }
+ h1, h3{
+   margin: auto;
+   margin-bottom: 20px;
+   font-family: 'Noto Sans Mono', monospace;
+   text-align: center;
+   color: rgb(5, 94, 13);
+ }
+ 
+ #form{
+     display: flex;
+     justify-content: center;
+ }
+form{
+   justify-content: center;
+    background-color: rgba(250, 224, 176, 0.705);
+    width: 600px;
+    padding: 40px;
+    flex-wrap: wrap;
+    margin: 10px;
+    overflow: hidden; 
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 15px;
+}
+ 
+ 
+#btn{
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 50%;
+    border-radius: 50px;
+    padding: 10px 25px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(241, 206, 141);
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Noto Sans Mono', monospace;
+    color: rgb(5, 94, 13);;
+     
+}
+
+#question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: -20px;
+    
+}
+label {
+    color: rgb(5, 94, 13);
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    padding: 10px 25px;
+    margin: 60px 5px 0px 5px;
+    width: 550px;
+    text-align: center;
+}
+span {
+    color: rgb(5, 94, 13);
+    font-weight: bolder;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+#double {
+    display: flex;
+    flex-wrap: wrap;
+} 
+ 
+input{
+ margin-top: 10px;
+ font-family: 'Noto Sans Mono', monospace;
+ font-size: 15px;
+   
+ 
+}
+#show{
+  text-align: center;
+    margin-top: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+
+} 
+.social{
+    text-align: center;
+    margin-top: 20px;
+           }
+
+       .fas{
+       font-size: 20px;
+       color:  #05813d;
+       margin: 7px;
+       padding: 7px;
+       border-radius: 50%;
+       background-color: rgb(241, 206, 141);
+   }
+
+
+@media all and (max-width:500px){
+    h1, h3{
+        font-size: 25px;
+        text-align: center;
+    }
+     
+    label {
+        color: rgb(5, 94, 13);
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid whitesmoke;
+        border-radius: 50px;
+        padding: 10px 25px;
+        width: 250px;
+        text-align: center;
+    }
+    span {
+       
+        font-size: 15px;
+        border: 2px solid whitesmoke;
+        width: 200px;
+        text-align: center;
+    }
+
+    #double {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+#btn{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 60%;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+}
